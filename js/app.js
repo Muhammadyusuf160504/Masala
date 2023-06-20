@@ -127,3 +127,16 @@ let a = prompt("1 dan 7 gacha bo'lgan bironta sonni kiriting")
 const hafta = ["Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba", "Yakshanba"]
 alert(`${a}-${hafta[a-1]}`)
 */
+
+// 3
+// Butun son berilgan. Agar, berilgan son musbat bo`lsa, 1 ga oshirilsin, aks holda o`zgartirilmasin. Hosil bo`lgan sonni ekranga chiqaruvchi programma tuzilsin.
+
+/*
+let a = prompt("Sonni kiriting")
+
+if (a > 0) {
+    alert(+a + 1)
+} else {
+    alert(a)
+}
+*/
