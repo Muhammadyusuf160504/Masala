@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(241, 50, 50), rgb(69, 157, 245));
+}
+h1 {
+    display: flex;
+    color: wheat;
+    padding: 20px;
+    border: 30px solid;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-left-color: blue;
+    border-right-color: red;
+    border-radius: 30px;
+    background-image: linear-gradient(red, blue);
+    font-size: 250px;
+}
+h1:hover {
+    background-image: 
+    linear-gradient(red 0%,red 15%, aqua 15%, aqua 85%, blue 85%, blue 100%);
+    color: red;
+}
