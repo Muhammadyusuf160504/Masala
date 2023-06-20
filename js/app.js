@@ -107,7 +107,7 @@ if (A <= B && B <= C) {
 // 1
 // Butun son berilgan. Agar, berilgan son musbat bo`lsa, 1 ga oshiring, aks holda 2 ga kamaytiring. Hosil bo`lgan sonni ekranga chiqaruvchi programma tuzilsin.
 
-
+/*
 let a = prompt("Sonni kiriting")
 
 if (a > 0) {
@@ -117,7 +117,13 @@ if (a > 0) {
 } else {
     alert(`${a} soni musbat ham manfiy ham emas`)
 }
+*/
 
 // 2
 // 1-7 gacha bo'lgan butun sonlar berilgan. Kiritilgan songa mos ravishda hafta kunlarini so'zda ifodalovchi programma tuzilsin. (1-Dushanba, 2-Chorshanba,...h.k)
 
+/*
+let a = prompt("1 dan 7 gacha bo'lgan bironta sonni kiriting")
+const hafta = ["Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba", "Yakshanba"]
+alert(`${a}-${hafta[a-1]}`)
+*/
