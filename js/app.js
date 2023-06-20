@@ -122,11 +122,15 @@ if (a > 0) {
 // 2
 // 1-7 gacha bo'lgan butun sonlar berilgan. Kiritilgan songa mos ravishda hafta kunlarini so'zda ifodalovchi programma tuzilsin. (1-Dushanba, 2-Chorshanba,...h.k)
 
-/*
+
 let a = prompt("1 dan 7 gacha bo'lgan bironta sonni kiriting")
 const hafta = ["Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba", "Yakshanba"]
-alert(`${a}-${hafta[a-1]}`)
-*/
+if (a <=7) {
+    alert(`${a}-${hafta[a-1]}`)
+} else {
+    alert("Hafta 7 kundan iborat")
+}
+
 
 // 3
 // Butun son berilgan. Agar, berilgan son musbat bo`lsa, 1 ga oshirilsin, aks holda o`zgartirilmasin. Hosil bo`lgan sonni ekranga chiqaruvchi programma tuzilsin.
